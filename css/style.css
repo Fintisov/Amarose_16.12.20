@@ -91,3 +91,17 @@ section.banner-product {
     text-align: center; }
     section.banner-product .product-banner .security-logo img {
       width: 18em; }
+
+section.logo-company {
+  padding-top: 80px;
+  padding-bottom: 70px;
+  background-image: url(../images/bg-1.png);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat; }
+  section.logo-company .text-logo-company {
+    text-align: center; }
+    section.logo-company .text-logo-company h6 {
+      margin: 0;
+      font-family: SofiaPro-Medium;
+      font-size: 40px; }

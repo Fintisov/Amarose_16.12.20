@@ -138,5 +138,22 @@ section.banner-product {
   }
 }
 
+section.logo-company {
+  padding-top: 80px;
+  padding-bottom: 70px;
+  background-image: url(../images/bg-1.png);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
 
+  .text-logo-company {
+    text-align: center;
+
+    h6 {
+      margin: 0;
+      font-family: SofiaPro-Medium;
+      font-size: 40px;
+    }
+  }
+}
 
