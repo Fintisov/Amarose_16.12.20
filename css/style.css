@@ -1,0 +1,93 @@
+@import url(fonts.css);
+header.header {
+  background: #8a8a8a; }
+  header.header .news-line {
+    padding-top: 16px;
+    padding-bottom: 16px;
+    text-align: center; }
+    header.header .news-line span {
+      font-family: SofiaPro-Light;
+      font-size: 15px;
+      color: #fff; }
+    header.header .news-line span.timer-news i {
+      font-size: 21px; }
+
+section.banner-product {
+  padding-top: 20px;
+  padding-bottom: 30px;
+  background-image: url("../images/bg-top.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center; }
+  section.banner-product .product-banner .product-btn {
+    text-align: end;
+    margin-bottom: 70px; }
+    section.banner-product .product-banner .product-btn a.btn.btn-primary.active {
+      font-family: Chivo-Bold;
+      text-transform: uppercase;
+      background: #00fe38;
+      background: linear-gradient(180deg, #00fe38 0%, #52e57a 40%, #40821f 100%);
+      border: 1px solid;
+      border-radius: 10px;
+      padding: 14px 45px;
+      box-shadow: none;
+      font-size: 18px; }
+  section.banner-product .product-banner .title-product {
+    margin-bottom: 45px;
+    text-align: center; }
+    section.banner-product .product-banner .title-product h1 {
+      font-family: SofiaPro-Black;
+      font-size: 30px;
+      color: #cf4877;
+      margin: 0; }
+    section.banner-product .product-banner .title-product p {
+      font-family: SofiaPro-Black;
+      font-size: 37px;
+      color: #cf4877; }
+  section.banner-product .product-banner .about-product .product-img img {
+    position: absolute;
+    width: 300px;
+    left: -20px; }
+  section.banner-product .product-banner .about-product .product-text {
+    margin-bottom: 80px; }
+    section.banner-product .product-banner .about-product .product-text h2 {
+      font-family: SofiaProSemi-Bold;
+      font-size: 33px;
+      margin-bottom: 20px; }
+      section.banner-product .product-banner .about-product .product-text h2 span {
+        font-family: PlayfairDisplay-Regular; }
+    section.banner-product .product-banner .about-product .product-text ul {
+      width: 85%; }
+      section.banner-product .product-banner .about-product .product-text ul li {
+        list-style: none;
+        font-family: SofiaPro-Light;
+        font-size: 24px;
+        display: flex;
+        align-items: baseline;
+        margin-bottom: 15px;
+        line-height: 28px; }
+        section.banner-product .product-banner .about-product .product-text ul li:before {
+          content: "\f00c";
+          font-family: "Font Awesome 5 Free";
+          font-weight: 900;
+          font-size: 24px;
+          margin-right: 18px;
+          color: #de5e8f; }
+  section.banner-product .product-banner .product-btn-bottom {
+    text-align: center; }
+    section.banner-product .product-banner .product-btn-bottom a.btn.btn-primary.active {
+      font-family: Chivo-Bold;
+      text-transform: uppercase;
+      background: #00fe38;
+      background: linear-gradient(180deg, #00fe38 0%, #52e57a 40%, #40821f 100%);
+      border: 1px solid;
+      border-radius: 10px;
+      padding: 14px 45px;
+      box-shadow: none;
+      font-size: 30px;
+      padding: 12px 70px;
+      margin-bottom: 15px; }
+  section.banner-product .product-banner .security-logo {
+    text-align: center; }
+    section.banner-product .product-banner .security-logo img {
+      width: 18em; }

@@ -1,0 +1,142 @@
+@import "fonts.css";
+
+@mixin btn-stile {
+  font-family: Chivo-Bold;
+  text-transform: uppercase;
+  background: rgb(0, 254, 56);
+  background: linear-gradient(180deg, rgba(0, 254, 56, 1) 0%, rgba(82, 229, 122, 1) 40%, rgba(64, 130, 31, 1) 100%);
+  border: 1px solid;
+  border-radius: 10px;
+  padding: 14px 45px;
+  box-shadow: none;
+}
+
+header.header {
+  background: #8a8a8a;
+
+  .news-line {
+    padding-top: 16px;
+    padding-bottom: 16px;
+    text-align: center;
+
+    span {
+      font-family: SofiaPro-Light;
+      font-size: 15px;
+      color: #fff;
+    }
+
+    span.timer-news {
+      i {
+        font-size: 21px;
+      }
+    }
+  }
+}
+
+section.banner-product {
+  padding-top: 20px;
+  padding-bottom: 30px;
+  background-image: url("../images/bg-top.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+
+  .product-banner {
+    .product-btn {
+      text-align: end;
+      margin-bottom: 70px;
+
+      a.btn.btn-primary.active {
+        @include btn-stile;
+        font-size: 18px;
+      }
+    }
+
+    .title-product {
+      margin-bottom: 45px;
+      text-align: center;
+
+      h1 {
+        font-family: SofiaPro-Black;
+        font-size: 30px;
+        color: #cf4877;
+        margin: 0;
+      }
+
+      p {
+        font-family: SofiaPro-Black;
+        font-size: 37px;
+        color: #cf4877;
+      }
+    }
+
+    .about-product {
+      .product-img {
+        img {
+          position: absolute;
+          width: 300px;
+          left: -20px;
+        }
+      }
+
+      .product-text {
+        margin-bottom: 80px;
+
+        h2 {
+          font-family: SofiaProSemi-Bold;
+          font-size: 33px;
+          margin-bottom: 20px;
+
+          span {
+            font-family: PlayfairDisplay-Regular;
+          }
+        }
+
+        ul {
+          width: 85%;
+
+          li {
+            list-style: none;
+            font-family: SofiaPro-Light;
+            font-size: 24px;
+            display: flex;
+            align-items: baseline;
+            margin-bottom: 15px;
+            line-height: 28px;
+
+            &:before {
+              content: "\f00c";
+              font-family: "Font Awesome 5 Free";
+              font-weight: 900;
+              font-size: 24px;
+              margin-right: 18px;
+              color: #de5e8f;
+            }
+          }
+        }
+      }
+    }
+
+    .product-btn-bottom {
+      text-align: center;
+
+      a.btn.btn-primary.active {
+        @include btn-stile;
+        font-size: 30px;
+        padding: 12px 70px;
+        margin-bottom: 15px;
+      }
+    }
+
+    .security-logo {
+      text-align: center;
+
+      img {
+        width: 18em;
+      }
+    }
+  }
+}
+
+
+

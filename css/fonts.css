@@ -1,0 +1,117 @@
+@font-face {
+    font-family: 'PlayfairDisplay-Regular';
+    src: url('../fonts/PlayfairDisplay-Regular.eot');
+    src: url('../fonts/PlayfairDisplay-Regular.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/PlayfairDisplay-Regular.woff2') format('woff2'),
+    url('../fonts/PlayfairDisplay-Regular.woff') format('woff'),
+    url('../fonts/PlayfairDisplay-Regular.ttf') format('truetype'),
+    url('../fonts/PlayfairDisplay-Regular.svg#PlayfairDisplay-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Montserrat-Bold';
+    src: url('../fonts/Montserrat-Bold.eot');
+    src: url('../fonts/Montserrat-Bold.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Montserrat-Bold.woff2') format('woff2'),
+    url('../fonts/Montserrat-Bold.woff') format('woff'),
+    url('../fonts/Montserrat-Bold.ttf') format('truetype'),
+    url('../fonts/Montserrat-Bold.svg#Montserrat-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SofiaPro-Black';
+    src: url('../fonts/SofiaProBlack.eot');
+    src: url('../fonts/SofiaProBlack.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/SofiaProBlack.woff2') format('woff2'),
+    url('../fonts/SofiaProBlack.woff') format('woff'),
+    url('../fonts/SofiaProBlack.ttf') format('truetype'),
+    url('../fonts/SofiaProBlack.svg#SofiaProBlack') format('svg');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SofiaPro-Light';
+    src: url('../fonts/SofiaProLight.eot');
+    src: url('../fonts/SofiaProLight.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/SofiaProLight.woff2') format('woff2'),
+    url('../fonts/SofiaProLight.woff') format('woff'),
+    url('../fonts/SofiaProLight.ttf') format('truetype'),
+    url('../fonts/SofiaProLight.svg#SofiaProLight') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SofiaPro-Medium';
+    src: url('../fonts/SofiaProMedium.eot');
+    src: url('../fonts/SofiaProMedium.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/SofiaProMedium.woff2') format('woff2'),
+    url('../fonts/SofiaProMedium.woff') format('woff'),
+    url('../fonts/SofiaProMedium.ttf') format('truetype'),
+    url('../fonts/SofiaProMedium.svg#SofiaProMedium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SofiaProSemi-Bold';
+    src: url('../fonts/SofiaProSemiBold.eot');
+    src: url('../fonts/SofiaProSemiBold.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/SofiaProSemiBold.woff2') format('woff2'),
+    url('../fonts/SofiaProSemiBold.woff') format('woff'),
+    url('../fonts/SofiaProSemiBold.ttf') format('truetype'),
+    url('../fonts/SofiaProSemiBold.svg#SofiaProSemiBold') format('svg');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Chivo-Bold';
+    src: url('../fonts/Chivo-Bold.eot');
+    src: url('../fonts/Chivo-Bold.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Chivo-Bold.woff2') format('woff2'),
+    url('../fonts/Chivo-Bold.woff') format('woff'),
+    url('../fonts/Chivo-Bold.ttf') format('truetype'),
+    url('../fonts/Chivo-Bold.svg#Chivo-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SofiaPro-Regular';
+    src: url('../fonts/SofiaProRegular.eot');
+    src: url('../fonts/SofiaProRegular.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/SofiaProRegular.woff2') format('woff2'),
+    url('../fonts/SofiaProRegular.woff') format('woff'),
+    url('../fonts/SofiaProRegular.ttf') format('truetype'),
+    url('../fonts/SofiaProRegular.svg#SofiaProRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Poppins-Medium';
+    src: url('../fonts/Poppins-Medium.eot');
+    src: url('../fonts/Poppins-Medium.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Poppins-Medium.woff2') format('woff2'),
+    url('../fonts/Poppins-Medium.woff') format('woff'),
+    url('../fonts/Poppins-Medium.ttf') format('truetype'),
+    url('../fonts/Poppins-Medium.svg#Poppins-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
