@@ -105,3 +105,107 @@ section.logo-company {
       margin: 0;
       font-family: SofiaPro-Medium;
       font-size: 40px; }
+
+section.product-description {
+  padding-top: 80px;
+  padding-bottom: 85px; }
+  section.product-description .product-img img {
+    width: 100%; }
+  section.product-description .text-product p {
+    padding: 0 15%;
+    text-align: center;
+    font-family: SofiaPro-Light;
+    font-size: 23px; }
+
+section.product-advantages .composition .wrapper-composition {
+  height: 100%;
+  background: #f5d4da;
+  padding: 65px 45px 30px 70px; }
+  section.product-advantages .composition .wrapper-composition .title-ingredients h3 {
+    text-align: center;
+    font-family: SofiaProSemi-Bold;
+    font-size: 42px; }
+    section.product-advantages .composition .wrapper-composition .title-ingredients h3 span {
+      font-family: PlayfairDisplay-Regular; }
+  section.product-advantages .composition .wrapper-composition .title-ingredients p {
+    font-family: SofiaPro-Regular;
+    font-size: 16px;
+    text-align: center;
+    color: #f18399; }
+  section.product-advantages .composition .wrapper-composition .ingredients-wrap .ingredients {
+    margin-right: 40px;
+    margin-bottom: 20px; }
+    section.product-advantages .composition .wrapper-composition .ingredients-wrap .ingredients h6 {
+      font-family: SofiaProSemi-Bold;
+      font-size: 19px;
+      color: #666666; }
+      section.product-advantages .composition .wrapper-composition .ingredients-wrap .ingredients h6:before {
+        content: "\f00c";
+        font-family: "Font Awesome 5 Free";
+        font-weight: 900;
+        position: absolute;
+        left: 50px; }
+    section.product-advantages .composition .wrapper-composition .ingredients-wrap .ingredients p {
+      font-family: SofiaPro-Light;
+      font-size: 19px;
+      color: #666666; }
+    section.product-advantages .composition .wrapper-composition .ingredients-wrap .ingredients:last-child {
+      margin-bottom: 45px; }
+  section.product-advantages .composition .wrapper-composition p.item {
+    margin-bottom: 25px;
+    font-family: SofiaProSemi-Bold;
+    font-size: 19px;
+    text-align: center;
+    color: #f18399; }
+  section.product-advantages .composition .wrapper-composition .no-ingredients h6 {
+    font-family: SofiaProSemi-Bold;
+    font-size: 19px;
+    color: #666666; }
+    section.product-advantages .composition .wrapper-composition .no-ingredients h6:before {
+      content: "\f00d";
+      font-family: "Font Awesome 5 Free";
+      font-weight: 900;
+      position: absolute;
+      left: 50px; }
+  section.product-advantages .composition .wrapper-composition .no-ingredients p {
+    font-family: SofiaPro-Light;
+    font-size: 19px;
+    color: #666666; }
+section.product-advantages .using .wrapper-using {
+  height: 100%;
+  padding: 100px 20px 0;
+  background: #f5d4da; }
+  section.product-advantages .using .wrapper-using .title-using {
+    margin-bottom: 50px; }
+    section.product-advantages .using .wrapper-using .title-using h3 {
+      font-family: SofiaProSemi-Bold;
+      font-size: 42px;
+      text-align: center;
+      margin-bottom: 30px; }
+    section.product-advantages .using .wrapper-using .title-using p {
+      font-family: SofiaPro-Light;
+      font-size: 19px;
+      color: #666666;
+      text-align: center;
+      line-height: 21px; }
+      section.product-advantages .using .wrapper-using .title-using p span {
+        font-family: SofiaPro-Regular;
+        font-size: 19px;
+        text-align: center;
+        color: #f18399; }
+    section.product-advantages .using .wrapper-using .title-using img {
+      width: 100%; }
+  section.product-advantages .using .wrapper-using h3 {
+    font-family: SofiaProSemi-Bold;
+    font-size: 42px;
+    text-align: center;
+    margin-bottom: 70px; }
+  section.product-advantages .using .wrapper-using p {
+    font-family: SofiaPro-Light;
+    font-size: 19px;
+    color: #666666; }
+  section.product-advantages .using .wrapper-using p.item {
+    font-family: SofiaPro-Regular;
+    font-size: 19px;
+    color: #f18399;
+    padding: 30px 0; }

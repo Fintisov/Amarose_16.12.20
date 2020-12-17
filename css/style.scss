@@ -157,3 +157,171 @@ section.logo-company {
   }
 }
 
+section.product-description {
+  padding-top: 80px;
+  padding-bottom: 85px;
+
+  .product-img {
+    img {
+      width: 100%;
+    }
+  }
+
+  .text-product {
+    p {
+      padding: 0 15%;
+      text-align: center;
+      font-family: SofiaPro-Light;
+      font-size: 23px;
+    }
+  }
+}
+
+section.product-advantages {
+  .composition {
+    .wrapper-composition {
+      height: 100%;
+      background: #f5d4da;
+      padding: 65px 45px 30px 70px;
+
+
+      .title-ingredients {
+        h3 {
+          text-align: center;
+          font-family: SofiaProSemi-Bold;
+          font-size: 42px;
+
+          span {
+            font-family: PlayfairDisplay-Regular;
+          }
+        }
+
+        p {
+          font-family: SofiaPro-Regular;
+          font-size: 16px;
+          text-align: center;
+          color: #f18399;
+        }
+      }
+
+      .ingredients-wrap {
+        .ingredients {
+          margin-right: 40px;
+          margin-bottom: 20px;
+
+          h6 {
+            font-family: SofiaProSemi-Bold;
+            font-size: 19px;
+            color: #666666;
+
+            &:before {
+              content: "\f00c";
+              font-family: "Font Awesome 5 Free";
+              font-weight: 900;
+              position: absolute;
+              left: 50px;
+            }
+          }
+
+          p {
+            font-family: SofiaPro-Light;
+            font-size: 19px;
+            color: #666666;
+          }
+
+          &:last-child {
+            margin-bottom: 45px;
+          }
+        }
+      }
+
+      p.item {
+        margin-bottom: 25px;
+        font-family: SofiaProSemi-Bold;
+        font-size: 19px;
+        text-align: center;
+        color: #f18399;
+      }
+
+      .no-ingredients {
+        h6 {
+          font-family: SofiaProSemi-Bold;
+          font-size: 19px;
+          color: #666666;
+
+          &:before {
+            content: "\f00d";
+            font-family: "Font Awesome 5 Free";
+            font-weight: 900;
+            position: absolute;
+            left: 50px;
+          }
+        }
+
+        p {
+          font-family: SofiaPro-Light;
+          font-size: 19px;
+          color: #666666;
+        }
+      }
+    }
+  }
+
+  .using {
+    .wrapper-using {
+      height: 100%;
+      padding: 100px 20px 0;
+      background: #f5d4da;
+
+      .title-using {
+        margin-bottom: 50px;
+
+        h3 {
+          font-family: SofiaProSemi-Bold;
+          font-size: 42px;
+          text-align: center;
+          margin-bottom: 30px;
+        }
+
+        p {
+          font-family: SofiaPro-Light;
+          font-size: 19px;
+          color: #666666;
+          text-align: center;
+          line-height: 21px;
+
+          span {
+            font-family: SofiaPro-Regular;
+            font-size: 19px;
+            text-align: center;
+            color: #f18399;
+          }
+        }
+        img {
+          width: 100%;
+        }
+      }
+      h3 {
+        font-family: SofiaProSemi-Bold;
+        font-size: 42px;
+        text-align: center;
+        margin-bottom: 70px;
+      }
+
+      p {
+        font-family: SofiaPro-Light;
+        font-size: 19px;
+        color: #666666;
+      }
+
+      p.item {
+        font-family: SofiaPro-Regular;
+        font-size: 19px;
+        color: #f18399;
+        padding: 30px 0;
+      }
+
+    }
+  }
+}
+
