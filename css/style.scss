@@ -325,3 +325,52 @@ section.product-advantages {
   }
 }
 
+section.product-reviews {
+  padding-top: 80px;
+  padding-bottom: 60px;
+
+  h2 {
+    text-align: center;
+    font-family: SofiaPro-Medium;
+    font-size: 42px;
+    margin-bottom: 70px;
+  }
+  .user-card {
+    .wrap-user-card {
+      .user-text {
+        background-color: #f18399;
+        padding: 35px 50px 0;
+        height: 250px;
+        overflow: hidden;
+
+        p {
+          font-family: SofiaPro-Medium;
+          font-size: 14px;
+          text-align: center;
+          color: white;
+
+          sup {
+            font-size: 15px;
+          }
+
+          span {
+            font-size: 15px;
+          }
+        }
+
+        img {
+          position: absolute;
+          left: 38%;
+          top: 47%;
+        }
+      }
+
+      .user-info {
+        background-color: #f8f8f8;
+        text-align: center;
+        padding-top: 45px;
+        padding-bottom: 10px;
+      }
+    }
+  }
+}

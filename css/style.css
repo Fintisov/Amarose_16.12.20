@@ -209,3 +209,35 @@ section.product-advantages .using .wrapper-using {
     font-size: 19px;
     color: #f18399;
     padding: 30px 0; }
+
+section.product-reviews {
+  padding-top: 80px;
+  padding-bottom: 60px; }
+  section.product-reviews h2 {
+    text-align: center;
+    font-family: SofiaPro-Medium;
+    font-size: 42px;
+    margin-bottom: 70px; }
+  section.product-reviews .user-card .wrap-user-card .user-text {
+    background-color: #f18399;
+    padding: 35px 50px 0;
+    height: 250px;
+    overflow: hidden; }
+    section.product-reviews .user-card .wrap-user-card .user-text p {
+      font-family: SofiaPro-Medium;
+      font-size: 14px;
+      text-align: center;
+      color: white; }
+      section.product-reviews .user-card .wrap-user-card .user-text p sup {
+        font-size: 15px; }
+      section.product-reviews .user-card .wrap-user-card .user-text p span {
+        font-size: 15px; }
+    section.product-reviews .user-card .wrap-user-card .user-text img {
+      position: absolute;
+      left: 38%;
+      top: 47%; }
+  section.product-reviews .user-card .wrap-user-card .user-info {
+    background-color: #f8f8f8;
+    text-align: center;
+    padding-top: 45px;
+    padding-bottom: 10px; }
