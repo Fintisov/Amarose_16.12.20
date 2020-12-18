@@ -225,3 +225,20 @@ section.product-reviews {
     text-align: center;
     padding-top: 45px;
     padding-bottom: 10px; }
+
+section.product-buy .card-product .line {
+  background-color: #f5d4da; }
+section.product-buy .card-product .buy-block h3 {
+  font-family: SofiaProSemi-Bold;
+  color: #666666;
+  font-size: 34px; }
+  section.product-buy .card-product .buy-block h3 sup {
+    font-size: 60%; }
+section.product-buy .card-product .buy-block h3.item {
+  display: inline;
+  border-bottom: 3px solid; }
+section.product-buy .card-product .buy-block p {
+  font-family: SofiaPro-Light;
+  color: #666666;
+  line-height: 10px;
+  font-size: 19px; }

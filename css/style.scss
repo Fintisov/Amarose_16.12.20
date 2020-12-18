@@ -342,3 +342,35 @@ section.product-reviews {
     padding-bottom: 10px;
   }
 }
+
+section.product-buy {
+  .card-product {
+    .line {
+      background-color: #f5d4da;
+    }
+
+    .buy-block {
+      h3 {
+        font-family: SofiaProSemi-Bold;
+        color: #666666;
+        font-size: 34px;
+
+        sup {
+          font-size: 60%;
+        }
+      }
+
+      h3.item {
+        display: inline;
+        border-bottom: 3px solid;
+      }
+
+      p {
+        font-family: SofiaPro-Light;
+        color: #666666;
+        line-height: 10px;
+        font-size: 19px;
+      }
+    }
+  }
+}
