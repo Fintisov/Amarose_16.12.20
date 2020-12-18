@@ -1,16 +1,12 @@
 @import url(fonts.css);
-header.header {
+header {
   background: #8a8a8a; }
-  header.header .news-line {
-    padding-top: 16px;
-    padding-bottom: 16px;
-    text-align: center; }
-    header.header .news-line span {
-      font-family: SofiaPro-Light;
-      font-size: 15px;
-      color: #fff; }
-    header.header .news-line span.timer-news i {
-      font-size: 21px; }
+  header span {
+    font-family: SofiaPro-Light;
+    font-size: 15px;
+    color: #fff; }
+  header span.timer-news i {
+    font-size: 21px; }
 
 section.banner-product {
   padding-top: 20px;
@@ -19,46 +15,40 @@ section.banner-product {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center; }
-  section.banner-product .product-banner .product-btn {
-    text-align: end;
-    margin-bottom: 70px; }
-    section.banner-product .product-banner .product-btn a.btn.btn-primary.active {
-      font-family: Chivo-Bold;
-      text-transform: uppercase;
-      background: #00fe38;
-      background: linear-gradient(180deg, #00fe38 0%, #52e57a 40%, #40821f 100%);
-      border: 1px solid;
-      border-radius: 10px;
-      padding: 14px 45px;
-      box-shadow: none;
-      font-size: 18px; }
-  section.banner-product .product-banner .title-product {
-    margin-bottom: 45px;
-    text-align: center; }
-    section.banner-product .product-banner .title-product h1 {
-      font-family: SofiaPro-Black;
-      font-size: 30px;
-      color: #cf4877;
-      margin: 0; }
-    section.banner-product .product-banner .title-product p {
-      font-family: SofiaPro-Black;
-      font-size: 37px;
-      color: #cf4877; }
-  section.banner-product .product-banner .about-product .product-img img {
+  section.banner-product .product-btn a.btn.btn-primary.active {
+    font-family: Chivo-Bold;
+    text-transform: uppercase;
+    background: #00fe38;
+    background: linear-gradient(180deg, #00fe38 0%, #52e57a 40%, #40821f 100%);
+    border: 1px solid;
+    border-radius: 10px;
+    padding: 14px 45px;
+    box-shadow: none;
+    font-size: 18px; }
+  section.banner-product h1 {
+    font-family: SofiaPro-Black;
+    font-size: 30px;
+    color: #cf4877;
+    margin: 0; }
+  section.banner-product p {
+    font-family: SofiaPro-Black;
+    font-size: 37px;
+    color: #cf4877; }
+  section.banner-product .product-img img {
     position: absolute;
     width: 300px;
     left: -20px; }
-  section.banner-product .product-banner .about-product .product-text {
+  section.banner-product .product-text {
     margin-bottom: 80px; }
-    section.banner-product .product-banner .about-product .product-text h2 {
+    section.banner-product .product-text h2 {
       font-family: SofiaProSemi-Bold;
       font-size: 33px;
       margin-bottom: 20px; }
-      section.banner-product .product-banner .about-product .product-text h2 span {
+      section.banner-product .product-text h2 span {
         font-family: PlayfairDisplay-Regular; }
-    section.banner-product .product-banner .about-product .product-text ul {
+    section.banner-product .product-text ul {
       width: 85%; }
-      section.banner-product .product-banner .about-product .product-text ul li {
+      section.banner-product .product-text ul li {
         list-style: none;
         font-family: SofiaPro-Light;
         font-size: 24px;
@@ -66,31 +56,27 @@ section.banner-product {
         align-items: baseline;
         margin-bottom: 15px;
         line-height: 28px; }
-        section.banner-product .product-banner .about-product .product-text ul li:before {
+        section.banner-product .product-text ul li:before {
           content: "\f00c";
           font-family: "Font Awesome 5 Free";
           font-weight: 900;
           font-size: 24px;
           margin-right: 18px;
           color: #de5e8f; }
-  section.banner-product .product-banner .product-btn-bottom {
-    text-align: center; }
-    section.banner-product .product-banner .product-btn-bottom a.btn.btn-primary.active {
-      font-family: Chivo-Bold;
-      text-transform: uppercase;
-      background: #00fe38;
-      background: linear-gradient(180deg, #00fe38 0%, #52e57a 40%, #40821f 100%);
-      border: 1px solid;
-      border-radius: 10px;
-      padding: 14px 45px;
-      box-shadow: none;
-      font-size: 30px;
-      padding: 12px 70px;
-      margin-bottom: 15px; }
-  section.banner-product .product-banner .security-logo {
-    text-align: center; }
-    section.banner-product .product-banner .security-logo img {
-      width: 18em; }
+  section.banner-product .product-btn-bottom a.btn.btn-primary.active {
+    font-family: Chivo-Bold;
+    text-transform: uppercase;
+    background: #00fe38;
+    background: linear-gradient(180deg, #00fe38 0%, #52e57a 40%, #40821f 100%);
+    border: 1px solid;
+    border-radius: 10px;
+    padding: 14px 45px;
+    box-shadow: none;
+    font-size: 30px;
+    padding: 12px 70px;
+    margin-bottom: 15px; }
+  section.banner-product .img-security img {
+    width: 18em; }
 
 section.logo-company {
   padding-top: 80px;
@@ -99,112 +85,110 @@ section.logo-company {
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat; }
-  section.logo-company .text-logo-company {
-    text-align: center; }
-    section.logo-company .text-logo-company h6 {
-      margin: 0;
-      font-family: SofiaPro-Medium;
-      font-size: 40px; }
+  section.logo-company h6 {
+    margin: 0;
+    font-family: SofiaPro-Medium;
+    font-size: 40px; }
 
 section.product-description {
   padding-top: 80px;
   padding-bottom: 85px; }
   section.product-description .product-img img {
     width: 100%; }
-  section.product-description .text-product p {
+  section.product-description p {
     padding: 0 15%;
     text-align: center;
     font-family: SofiaPro-Light;
     font-size: 23px; }
 
-section.product-advantages .composition .wrapper-composition {
+section.product-advantages .wrapper-composition {
   height: 100%;
   background: #f5d4da;
   padding: 65px 45px 30px 70px; }
-  section.product-advantages .composition .wrapper-composition .title-ingredients h3 {
+  section.product-advantages .wrapper-composition .title-ingredients h3 {
     text-align: center;
     font-family: SofiaProSemi-Bold;
     font-size: 42px; }
-    section.product-advantages .composition .wrapper-composition .title-ingredients h3 span {
+    section.product-advantages .wrapper-composition .title-ingredients h3 span {
       font-family: PlayfairDisplay-Regular; }
-  section.product-advantages .composition .wrapper-composition .title-ingredients p {
+  section.product-advantages .wrapper-composition .title-ingredients p {
     font-family: SofiaPro-Regular;
     font-size: 16px;
     text-align: center;
     color: #f18399; }
-  section.product-advantages .composition .wrapper-composition .ingredients-wrap .ingredients {
+  section.product-advantages .wrapper-composition .ingredients {
     margin-right: 40px;
     margin-bottom: 20px; }
-    section.product-advantages .composition .wrapper-composition .ingredients-wrap .ingredients h6 {
+    section.product-advantages .wrapper-composition .ingredients h6 {
       font-family: SofiaProSemi-Bold;
       font-size: 19px;
       color: #666666; }
-      section.product-advantages .composition .wrapper-composition .ingredients-wrap .ingredients h6:before {
+      section.product-advantages .wrapper-composition .ingredients h6:before {
         content: "\f00c";
         font-family: "Font Awesome 5 Free";
         font-weight: 900;
         position: absolute;
         left: 50px; }
-    section.product-advantages .composition .wrapper-composition .ingredients-wrap .ingredients p {
+    section.product-advantages .wrapper-composition .ingredients p {
       font-family: SofiaPro-Light;
       font-size: 19px;
       color: #666666; }
-    section.product-advantages .composition .wrapper-composition .ingredients-wrap .ingredients:last-child {
+    section.product-advantages .wrapper-composition .ingredients:last-child {
       margin-bottom: 45px; }
-  section.product-advantages .composition .wrapper-composition p.item {
+  section.product-advantages .wrapper-composition p.item {
     margin-bottom: 25px;
     font-family: SofiaProSemi-Bold;
     font-size: 19px;
     text-align: center;
     color: #f18399; }
-  section.product-advantages .composition .wrapper-composition .no-ingredients h6 {
+  section.product-advantages .wrapper-composition .no-ingredients h6 {
     font-family: SofiaProSemi-Bold;
     font-size: 19px;
     color: #666666; }
-    section.product-advantages .composition .wrapper-composition .no-ingredients h6:before {
+    section.product-advantages .wrapper-composition .no-ingredients h6:before {
       content: "\f00d";
       font-family: "Font Awesome 5 Free";
       font-weight: 900;
       position: absolute;
       left: 50px; }
-  section.product-advantages .composition .wrapper-composition .no-ingredients p {
+  section.product-advantages .wrapper-composition .no-ingredients p {
     font-family: SofiaPro-Light;
     font-size: 19px;
     color: #666666; }
-section.product-advantages .using .wrapper-using {
+section.product-advantages .wrapper-using {
   height: 100%;
   padding: 100px 20px 0;
   background: #f5d4da; }
-  section.product-advantages .using .wrapper-using .title-using {
+  section.product-advantages .wrapper-using .title-using {
     margin-bottom: 50px; }
-    section.product-advantages .using .wrapper-using .title-using h3 {
+    section.product-advantages .wrapper-using .title-using h3 {
       font-family: SofiaProSemi-Bold;
       font-size: 42px;
       text-align: center;
       margin-bottom: 30px; }
-    section.product-advantages .using .wrapper-using .title-using p {
+    section.product-advantages .wrapper-using .title-using p {
       font-family: SofiaPro-Light;
       font-size: 19px;
       color: #666666;
       text-align: center;
       line-height: 21px; }
-      section.product-advantages .using .wrapper-using .title-using p span {
+      section.product-advantages .wrapper-using .title-using p span {
         font-family: SofiaPro-Regular;
         font-size: 19px;
         text-align: center;
         color: #f18399; }
-    section.product-advantages .using .wrapper-using .title-using img {
+    section.product-advantages .wrapper-using .title-using img {
       width: 100%; }
-  section.product-advantages .using .wrapper-using h3 {
+  section.product-advantages .wrapper-using h3 {
     font-family: SofiaProSemi-Bold;
     font-size: 42px;
     text-align: center;
     margin-bottom: 70px; }
-  section.product-advantages .using .wrapper-using p {
+  section.product-advantages .wrapper-using p {
     font-family: SofiaPro-Light;
     font-size: 19px;
     color: #666666; }
-  section.product-advantages .using .wrapper-using p.item {
+  section.product-advantages .wrapper-using p.item {
     font-family: SofiaPro-Regular;
     font-size: 19px;
     color: #f18399;
@@ -218,25 +202,25 @@ section.product-reviews {
     font-family: SofiaPro-Medium;
     font-size: 42px;
     margin-bottom: 70px; }
-  section.product-reviews .user-card .wrap-user-card .user-text {
+  section.product-reviews .user-text {
     background-color: #f18399;
     padding: 35px 50px 0;
     height: 250px;
     overflow: hidden; }
-    section.product-reviews .user-card .wrap-user-card .user-text p {
+    section.product-reviews .user-text p {
       font-family: SofiaPro-Medium;
       font-size: 14px;
       text-align: center;
       color: white; }
-      section.product-reviews .user-card .wrap-user-card .user-text p sup {
+      section.product-reviews .user-text p sup {
         font-size: 15px; }
-      section.product-reviews .user-card .wrap-user-card .user-text p span {
+      section.product-reviews .user-text p span {
         font-size: 15px; }
-    section.product-reviews .user-card .wrap-user-card .user-text img {
+    section.product-reviews .user-text img {
       position: absolute;
       left: 38%;
       top: 47%; }
-  section.product-reviews .user-card .wrap-user-card .user-info {
+  section.product-reviews .user-info {
     background-color: #f8f8f8;
     text-align: center;
     padding-top: 45px;
