@@ -40,12 +40,12 @@ section.banner-product {
   background-size: cover;
   background-position: center center;
 
-
-  .product-btn {
-    a.btn.btn-primary.active {
-      @include btn-stile;
-      font-size: 18px;
-    }
+  a.btn-top-banner {
+    @include btn-stile;
+    font-size: 18px;
+    box-shadow: none !important;
+    float: right;
+    color: white;
   }
 
   h1 {
@@ -120,7 +120,6 @@ section.banner-product {
       width: 18em;
     }
   }
-
 }
 
 section.logo-company {
@@ -185,6 +184,7 @@ section.product-advantages {
 
     ul {
       list-style: none;
+
       li.ingredients {
         margin-right: 40px;
         margin-bottom: 20px;
@@ -213,6 +213,7 @@ section.product-advantages {
           margin-bottom: 45px;
         }
       }
+
       li.item {
         margin-bottom: 25px;
         font-family: SofiaProSemi-Bold;
@@ -220,6 +221,7 @@ section.product-advantages {
         text-align: center;
         color: #f18399;
       }
+
       li.no-ingredients {
         h6 {
           font-family: SofiaProSemi-Bold;
@@ -352,6 +354,7 @@ section.product-reviews {
 section.product-buy {
   padding-top: 60px;
   padding-bottom: 60px;
+
   h2 {
     font-size: 42px;
     margin-bottom: 110px;
@@ -512,7 +515,6 @@ section.product-buy {
       height: 3em;
     }
   }
-
 }
 
 footer {
@@ -542,3 +544,494 @@ footer {
     font-size: 16px;
   }
 }
+
+@media screen and (max-width: 1024px) {
+
+  section.banner-product {
+    background-position: -18em center;
+
+    h1 {
+      font-size: 25px;
+    }
+
+    .product-text {
+      h2 {
+        font-size: 27px;
+      }
+    }
+
+    .product-btn {
+      margin: 0;
+    }
+
+    .product-img {
+      img {
+        width: 260px;
+        left: -60px;
+      }
+    }
+  }
+
+  section.logo-company {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  section.product-buy {
+    .card-wrapper {
+      flex-direction: column;
+      align-items: center;
+
+      .card-product {
+        margin-bottom: 15px;
+        transform: none;
+        z-index: auto;
+        opacity: 1;
+        background: white;
+        width: 50%;
+
+        &:hover {
+          transform: none;
+        }
+      }
+    }
+  }
+
+}
+
+@media screen and (max-width: 768px) {
+  section.banner-product {
+    background-position: -20em 0em;
+    background-size: 191%;
+
+    h1 {
+      font-size: 21px;
+    }
+
+    p {
+      font-size: 22px;
+    }
+
+    .product-img {
+      img {
+        width: 215px;
+        left: -39px;
+        top: 57px;
+      }
+    }
+
+    .product-text {
+      h2 {
+        font-size: 22px;
+      }
+
+      ul {
+        li {
+          font-size: 18px;
+        }
+      }
+    }
+
+    .product-btn-bottom {
+      a.btn.btn-primary.active {
+        font-size: 24px;
+      }
+    }
+  }
+
+  section.logo-company {
+    h6 {
+      font-size: 26px;
+    }
+  }
+
+  section.product-advantages {
+    .wrapper-using {
+      padding-bottom: 50px;
+    }
+  }
+
+  section.product-reviews {
+    .user-card {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-bottom: 15px;
+
+      .user-text, .user-info {
+        width: 75%;
+
+        img {
+          left: 43%;
+        }
+      }
+    }
+  }
+
+  section.product-buy {
+
+    .card-wrapper {
+      margin-bottom: 35px;
+
+      .card-product {
+        width: 75%;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 414px) {
+  header {
+    span {
+      font-size: 13px;
+    }
+  }
+
+  section.banner-product {
+    background-image: url("../images/bg-top-mob17.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: 0em -3em;
+
+    img.logo {
+      width: 100px;
+    }
+
+    a.btn-top-banner {
+      font-size: 19px;
+      padding: 10px 23px;
+    }
+
+    p {
+      font-size: 30px;
+      line-height: 1;
+    }
+
+    .product-img {
+      img {
+        width: 265px;
+        left: -47px;
+        top: 65px;
+      }
+    }
+
+    .product-text {
+      margin-bottom: 0;
+
+      h2 {
+        text-align: center;
+        font-size: 27px;
+        margin-bottom: 7em;
+      }
+
+      ul {
+        width: 100%;
+        padding-left: 40%;
+
+        li {
+          font-size: 15px;
+          line-height: 14px;
+
+          &:before {
+            font-size: 17px;
+          }
+        }
+      }
+    }
+
+    .product-btn-bottom {
+      a {
+        display: block;
+      }
+    }
+
+    .img-security {
+      img {
+        width: 15em;
+      }
+    }
+
+  }
+
+  section.logo-company {
+    background-size: auto;
+    background-position: 0 center;
+  }
+
+  section.product-description {
+    padding-top: 15px;
+    padding-bottom: 25px;
+
+    p {
+      padding: 0;
+      font-size: 19px;
+      line-height: 22px;
+    }
+  }
+
+  section.product-advantages {
+    .wrapper-composition {
+      padding: 30px 0;
+
+      .title-ingredients {
+        h3 {
+          font-size: 32px;
+        }
+
+        p {
+          padding-left: 20%;
+          padding-right: 20%;
+        }
+      }
+
+      ul {
+        padding-left: 75px;
+
+        li.item {
+          text-align: left;
+        }
+      }
+    }
+
+    .wrapper-using {
+      padding: 30px 15px;
+
+      .title-using, .subtitle-using {
+        h3 {
+          font-size: 32px;
+        }
+      }
+    }
+  }
+
+  section.product-reviews {
+    h2 {
+      font-size: 27px;
+    }
+
+    .user-card {
+      .user-text, .user-info {
+        width: 100%;
+
+        img {
+          left: 39%;
+        }
+      }
+    }
+  }
+
+  section.product-buy {
+    padding-top: 0;
+
+    h2 {
+      font-size: 32px;
+      margin-bottom: 25px;
+    }
+
+    .card-wrapper {
+      .card-product {
+        width: 100%;
+      }
+    }
+
+    .btn-block {
+      a {
+        display: block;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 375px) {
+  section.banner-product {
+    background-position: 0em -2em;
+
+    h1 {
+      font-size: 18px;
+    }
+
+    p {
+      font-size: 28px;
+    }
+
+    .product-text {
+      h2 {
+        font-size: 24px;
+      }
+    }
+  }
+
+  footer {
+    p.copyright {
+      font-size: 13px;
+    }
+  }
+}
+
+@media screen and (max-width: 360px) {
+  section.banner-product {
+    .product-img {
+      img {
+        width: 250px;
+        left: -47px;
+        top: 65px;
+      }
+    }
+
+    .product-btn-bottom {
+      a.btn.btn-primary.active {
+        font-size: 20px;
+      }
+    }
+  }
+
+  section.product-buy {
+    .btn-block {
+      a.btn.btn-primary.active {
+        font-size: 20px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 320px) {
+  header {
+    .text-center {
+      line-height: 1;
+    }
+  }
+
+  section.banner-product {
+    background-position: 0em -1em;
+
+    img.logo {
+      width: 85px;
+    }
+
+    a.btn-top-banner {
+      font-size: 14px;
+    }
+
+    h1 {
+      font-size: 14px;
+    }
+
+    p {
+      font-size: 22px;
+    }
+
+    .product-img {
+      img {
+        width: 220px;
+        left: -40px;
+        top: 74px;
+      }
+    }
+
+    .product-text {
+      h2 {
+        font-size: 21px;
+      }
+
+      ul {
+        li {
+          font-size: 14px;
+
+          &:before {
+            font-size: 14px;
+            margin-right: 10px;
+          }
+        }
+      }
+    }
+
+    .product-btn-bottom {
+      a.btn.btn-primary.active {
+        font-size: 14px;
+      }
+    }
+
+    .img-security {
+      img {
+        width: 13em;
+      }
+    }
+  }
+
+  section.logo-company {
+    h6 {
+      font-size: 21px;
+    }
+  }
+
+  section.product-advantages {
+    .wrapper-composition {
+
+      .title-ingredients {
+        p {
+          font-size: 15px;
+        }
+      }
+
+      ul {
+        padding-left: 45px;
+
+        li.item {
+          font-size: 16px;
+        }
+
+        li.ingredients,li.no-ingredients {
+          h6 {
+            &:before {
+              left: 22px;
+            }
+          }
+        }
+      }
+
+    }
+  }
+
+  section.product-reviews {
+    h2 {
+      font-size: 21px;
+      margin-bottom: 40px;
+    }
+
+    .user-card {
+      .user-text {
+        img {
+          left: 37%;
+          top: 50%;
+          width: 80px;
+        }
+      }
+    }
+  }
+
+  section.product-buy {
+    .card-wrapper {
+      .card-product {
+        .buy-block {
+          padding-top: 15px;
+          padding-bottom: 15px;
+
+          .btn-prise-group {
+            .btn-prise {
+              label {
+                span {
+                  font-size: 11px;
+
+                  span.prise {
+                    font-size: 21px;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
