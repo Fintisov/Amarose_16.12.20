@@ -120,45 +120,47 @@ section.product-advantages .wrapper-composition {
     font-size: 16px;
     text-align: center;
     color: #f18399; }
-  section.product-advantages .wrapper-composition .ingredients {
-    margin-right: 40px;
-    margin-bottom: 20px; }
-    section.product-advantages .wrapper-composition .ingredients h6 {
+  section.product-advantages .wrapper-composition ul {
+    list-style: none; }
+    section.product-advantages .wrapper-composition ul li.ingredients {
+      margin-right: 40px;
+      margin-bottom: 20px; }
+      section.product-advantages .wrapper-composition ul li.ingredients h6 {
+        font-family: SofiaProSemi-Bold;
+        font-size: 19px;
+        color: #666666; }
+        section.product-advantages .wrapper-composition ul li.ingredients h6:before {
+          content: "\f00c";
+          font-family: "Font Awesome 5 Free";
+          font-weight: 900;
+          position: absolute;
+          left: 50px; }
+      section.product-advantages .wrapper-composition ul li.ingredients p {
+        font-family: SofiaPro-Light;
+        font-size: 19px;
+        color: #666666; }
+      section.product-advantages .wrapper-composition ul li.ingredients:last-child {
+        margin-bottom: 45px; }
+    section.product-advantages .wrapper-composition ul li.item {
+      margin-bottom: 25px;
+      font-family: SofiaProSemi-Bold;
+      font-size: 19px;
+      text-align: center;
+      color: #f18399; }
+    section.product-advantages .wrapper-composition ul li.no-ingredients h6 {
       font-family: SofiaProSemi-Bold;
       font-size: 19px;
       color: #666666; }
-      section.product-advantages .wrapper-composition .ingredients h6:before {
-        content: "\f00c";
+      section.product-advantages .wrapper-composition ul li.no-ingredients h6:before {
+        content: "\f00d";
         font-family: "Font Awesome 5 Free";
         font-weight: 900;
         position: absolute;
         left: 50px; }
-    section.product-advantages .wrapper-composition .ingredients p {
+    section.product-advantages .wrapper-composition ul li.no-ingredients p {
       font-family: SofiaPro-Light;
       font-size: 19px;
       color: #666666; }
-    section.product-advantages .wrapper-composition .ingredients:last-child {
-      margin-bottom: 45px; }
-  section.product-advantages .wrapper-composition p.item {
-    margin-bottom: 25px;
-    font-family: SofiaProSemi-Bold;
-    font-size: 19px;
-    text-align: center;
-    color: #f18399; }
-  section.product-advantages .wrapper-composition .no-ingredients h6 {
-    font-family: SofiaProSemi-Bold;
-    font-size: 19px;
-    color: #666666; }
-    section.product-advantages .wrapper-composition .no-ingredients h6:before {
-      content: "\f00d";
-      font-family: "Font Awesome 5 Free";
-      font-weight: 900;
-      position: absolute;
-      left: 50px; }
-  section.product-advantages .wrapper-composition .no-ingredients p {
-    font-family: SofiaPro-Light;
-    font-size: 19px;
-    color: #666666; }
 section.product-advantages .wrapper-using {
   height: 100%;
   padding: 100px 20px 0;
@@ -230,98 +232,133 @@ section.product-reviews {
     padding-top: 45px;
     padding-bottom: 10px; }
 
-section.product-buy h2 {
-  font-size: 42px;
-  margin-bottom: 110px; }
-section.product-buy .card-wrapper .card-product {
-  width: 370px;
-  background: white;
-  -webkit-box-shadow: 0px 0px 9px -1px rgba(0, 0, 0, 0.75);
-  -moz-box-shadow: 0px 0px 9px -1px rgba(0, 0, 0, 0.75);
-  box-shadow: 0px 0px 9px -1px rgba(0, 0, 0, 0.75); }
-  section.product-buy .card-wrapper .card-product .buy-block {
-    border-top: 24px solid #f5d4da;
-    padding-top: 30px;
-    padding-bottom: 30px; }
-    section.product-buy .card-wrapper .card-product .buy-block h3 {
-      font-family: SofiaProSemi-Bold;
-      color: #666666;
-      font-size: 34px; }
-      section.product-buy .card-wrapper .card-product .buy-block h3 sup {
-        font-size: 60%; }
-    section.product-buy .card-wrapper .card-product .buy-block h3.item {
-      display: inline;
-      border-bottom: 3px solid; }
-    section.product-buy .card-wrapper .card-product .buy-block img.img-product {
-      width: 100%;
-      height: 190px; }
-    section.product-buy .card-wrapper .card-product .buy-block p {
-      font-family: SofiaPro-Light;
-      color: #666666;
-      line-height: 10px;
-      font-size: 19px; }
-    section.product-buy .card-wrapper .card-product .buy-block p.old-prise {
-      font-family: SofiaProSemi-Bold; }
-      section.product-buy .card-wrapper .card-product .buy-block p.old-prise span {
-        position: relative; }
-        section.product-buy .card-wrapper .card-product .buy-block p.old-prise span:before {
-          content: "";
-          border-bottom: 2px solid;
-          display: inline-block;
-          width: 70px;
-          position: absolute;
-          top: 14px; }
-    section.product-buy .card-wrapper .card-product .buy-block .btn-prise-group {
-      border: 6px solid #d5d4d5;
-      border-radius: 40px;
-      width: 100%;
-      overflow: hidden; }
-      section.product-buy .card-wrapper .card-product .buy-block .btn-prise-group .btn-prise {
-        padding-top: 10px;
-        padding-bottom: 10px;
-        width: 50%;
+section.product-buy {
+  padding-top: 60px;
+  padding-bottom: 60px; }
+  section.product-buy h2 {
+    font-size: 42px;
+    margin-bottom: 110px; }
+  section.product-buy .card-wrapper {
+    margin-bottom: 100px; }
+    section.product-buy .card-wrapper .card-product {
+      width: 370px;
+      background: white;
+      -webkit-box-shadow: 0px 0px 9px -1px rgba(0, 0, 0, 0.75);
+      -moz-box-shadow: 0px 0px 9px -1px rgba(0, 0, 0, 0.75);
+      box-shadow: 0px 0px 9px -1px rgba(0, 0, 0, 0.75); }
+      section.product-buy .card-wrapper .card-product .buy-block {
+        border-top: 24px solid #f5d4da;
+        padding-top: 30px;
+        padding-bottom: 30px; }
+        section.product-buy .card-wrapper .card-product .buy-block h3 {
+          font-family: SofiaProSemi-Bold;
+          color: #666666;
+          font-size: 34px; }
+          section.product-buy .card-wrapper .card-product .buy-block h3 sup {
+            font-size: 60%; }
+        section.product-buy .card-wrapper .card-product .buy-block h3.item {
+          display: inline;
+          border-bottom: 3px solid; }
+        section.product-buy .card-wrapper .card-product .buy-block img.img-product {
+          width: 100%;
+          height: 190px; }
+        section.product-buy .card-wrapper .card-product .buy-block p {
+          font-family: SofiaPro-Light;
+          color: #666666;
+          line-height: 10px;
+          font-size: 19px; }
+        section.product-buy .card-wrapper .card-product .buy-block p.old-prise {
+          font-family: SofiaProSemi-Bold; }
+          section.product-buy .card-wrapper .card-product .buy-block p.old-prise span {
+            position: relative; }
+            section.product-buy .card-wrapper .card-product .buy-block p.old-prise span:before {
+              content: "";
+              border-bottom: 2px solid;
+              display: inline-block;
+              width: 70px;
+              position: absolute;
+              top: 14px; }
+        section.product-buy .card-wrapper .card-product .buy-block .btn-prise-group {
+          border: 6px solid #d5d4d5;
+          border-radius: 40px;
+          width: 100%;
+          overflow: hidden; }
+          section.product-buy .card-wrapper .card-product .buy-block .btn-prise-group .btn-prise {
+            padding-top: 10px;
+            padding-bottom: 10px;
+            width: 50%;
+            background: white;
+            background: linear-gradient(180deg, #ffffff 0%, #d5d4d5 100%); }
+            section.product-buy .card-wrapper .card-product .buy-block .btn-prise-group .btn-prise label {
+              width: 100%; }
+              section.product-buy .card-wrapper .card-product .buy-block .btn-prise-group .btn-prise label span {
+                font-family: SofiaPro-Medium;
+                font-size: 13px;
+                line-height: 17px;
+                color: #484848; }
+                section.product-buy .card-wrapper .card-product .buy-block .btn-prise-group .btn-prise label span span.prise {
+                  font-size: 28px; }
+            section.product-buy .card-wrapper .card-product .buy-block .btn-prise-group .btn-prise:first-child {
+              border-right: 3px solid #d5d4d5; }
+            section.product-buy .card-wrapper .card-product .buy-block .btn-prise-group .btn-prise:last-child {
+              border-left: 3px solid #d5d4d5; }
+              section.product-buy .card-wrapper .card-product .buy-block .btn-prise-group .btn-prise:last-child input {
+                right: 0; }
+        section.product-buy .card-wrapper .card-product .buy-block a.btn.btn-block {
+          color: white;
+          background: #f18399;
+          font-family: SofiaProSemi-Bold;
+          font-size: 18px;
+          text-transform: uppercase;
+          letter-spacing: 6px;
+          box-shadow: none;
+          border-radius: 0; }
+    section.product-buy .card-wrapper .product-box-1 {
+      background: #f0f0f0;
+      opacity: 0.7; }
+      section.product-buy .card-wrapper .product-box-1:hover {
+        transition: 0.7s;
+        opacity: 1;
         background: white;
-        background: linear-gradient(180deg, #ffffff 0%, #d5d4d5 100%); }
-        section.product-buy .card-wrapper .card-product .buy-block .btn-prise-group .btn-prise label {
-          width: 100%; }
-          section.product-buy .card-wrapper .card-product .buy-block .btn-prise-group .btn-prise label span {
-            font-family: SofiaPro-Medium;
-            font-size: 13px;
-            line-height: 17px;
-            color: #484848; }
-            section.product-buy .card-wrapper .card-product .buy-block .btn-prise-group .btn-prise label span span.prise {
-              font-size: 28px; }
-        section.product-buy .card-wrapper .card-product .buy-block .btn-prise-group .btn-prise:first-child {
-          border-right: 3px solid #d5d4d5; }
-        section.product-buy .card-wrapper .card-product .buy-block .btn-prise-group .btn-prise:last-child {
-          border-left: 3px solid #d5d4d5; }
-          section.product-buy .card-wrapper .card-product .buy-block .btn-prise-group .btn-prise:last-child input {
-            right: 0; }
-    section.product-buy .card-wrapper .card-product .buy-block a.btn.btn-block {
-      color: white;
-      background: #f18399;
-      font-family: SofiaProSemi-Bold;
-      font-size: 18px;
-      text-transform: uppercase;
-      letter-spacing: 6px;
-      box-shadow: none;
-      border-radius: 0; }
-section.product-buy .card-wrapper .product-box-1 {
-  background: #f0f0f0;
-  opacity: 0.7; }
-  section.product-buy .card-wrapper .product-box-1:hover {
-    transition: 0.7s;
-    opacity: 1;
-    background: white;
-    transform: matrix(1.1, 0, 0, 1.1, -60, 0); }
-section.product-buy .card-wrapper .product-box-2 {
-  transform: scale(1.18);
-  z-index: 2; }
-section.product-buy .card-wrapper .product-box-3 {
-  background: #f0f0f0;
-  opacity: 0.7; }
-  section.product-buy .card-wrapper .product-box-3:hover {
-    transition: 0.7s;
-    opacity: 1;
-    background: white;
-    transform: matrix(1.1, 0, 0, 1.1, 60, 0); }
+        transform: matrix(1.1, 0, 0, 1.1, -60, 0); }
+    section.product-buy .card-wrapper .product-box-2 {
+      transform: scale(1.18);
+      z-index: 2; }
+    section.product-buy .card-wrapper .product-box-3 {
+      background: #f0f0f0;
+      opacity: 0.7; }
+      section.product-buy .card-wrapper .product-box-3:hover {
+        transition: 0.7s;
+        opacity: 1;
+        background: white;
+        transform: matrix(1.1, 0, 0, 1.1, 60, 0); }
+  section.product-buy .btn-block a.btn.btn-primary.active {
+    font-family: Chivo-Bold;
+    text-transform: uppercase;
+    background: #00fe38;
+    background: linear-gradient(180deg, #00fe38 0%, #52e57a 40%, #40821f 100%);
+    border: 1px solid;
+    border-radius: 10px;
+    padding: 14px 45px;
+    box-shadow: none;
+    font-size: 26px; }
+  section.product-buy .btn-block img {
+    width: 17em;
+    height: 3em; }
+
+footer p.top {
+  background: #000;
+  color: white;
+  text-transform: uppercase;
+  font-family: SofiaProSemi-Bold;
+  margin-bottom: 30px; }
+footer p.social {
+  font-family: SofiaProSemi-Bold;
+  font-size: 23px; }
+footer ul li {
+  list-style: none;
+  margin-right: 35px; }
+footer p.copyright {
+  color: #7a7a7a;
+  font-family: SofiaPro-Light;
+  font-size: 16px; }
